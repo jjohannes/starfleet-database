@@ -6,6 +6,10 @@ An example application built with the Java Module System.
 
 ![screen.png](docs/screen.png)
 
+## Presentation slides
+
+[9 years after Java 9: What do we do with the Module System?](docs/java-modules-2026.pdf)
+
 ## Using
 
 - For the data: [Star Trek API](https://stapi.co/)
