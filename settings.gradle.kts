@@ -34,7 +34,7 @@ gradle.lifecycle.beforeProject {
             "implementation"(platform(project(":versions")))
         }
         configure<JavaPluginExtension> {
-            toolchain.languageVersion = JavaLanguageVersion.of(26)
+            toolchain.languageVersion = JavaLanguageVersion.of(27)
         }
         tasks.withType<JavaCompile>().configureEach {
             options.compilerArgs = listOf("-Werror", "-Xlint:all,-module,-missing-explicit-ctor")
